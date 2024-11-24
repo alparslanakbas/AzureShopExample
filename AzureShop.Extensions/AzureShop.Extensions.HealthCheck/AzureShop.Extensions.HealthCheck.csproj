@@ -1,0 +1,36 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="8.0.0" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<FrameworkReference Include="Microsoft.AspNetCore.App" />
+	</ItemGroup>
+
+	<PropertyGroup>
+
+		<IsPackable>true</IsPackable>
+		<PackageId>AzureShop.Extensions.HealthCheck</PackageId>
+
+		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+		<PackageTags>HealthCheck, Extensions; </PackageTags>
+
+		<Company>TechBuddy</Company>
+		<Authors>TechBuddy Tech</Authors>
+		<Description>Provides extension method to add healthcheck url</Description>
+		<PackageIcon>logo.png</PackageIcon>
+		<Copyright>TechBuddy. 2023 All Rights Reserved</Copyright>
+		<RepositoryType>git</RepositoryType>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<None Include="logo.png" Pack="true" PackagePath="" />
+	</ItemGroup>
+
+</Project>
